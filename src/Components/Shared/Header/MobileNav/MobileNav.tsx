@@ -1,22 +1,22 @@
-'use client';
-import logo from '@/assets/logo.png';
-import { Button, Divider, IconButton, Skeleton, Stack } from '@mui/material';
-import Box from '@mui/material/Box';
-import Drawer from '@mui/material/Drawer';
-import dynamic from 'next/dynamic';
-import Image from 'next/image';
-import Link from 'next/link';
-import * as React from 'react';
-import { CgMenuRightAlt } from 'react-icons/cg';
-import { CiLocationOn } from 'react-icons/ci';
-import { GiFlexibleLamp } from 'react-icons/gi';
-import { IoClose } from 'react-icons/io5';
-import { LuPhoneCall } from 'react-icons/lu';
-import { MdOutlineArrowOutward } from 'react-icons/md';
-import SocialSection from '../../SocialSection';
-import SearchProduct from '../SearchProduct';
-import CategoryAccordion from './CategoryAccordion';
-const HeaderButtons = dynamic(() => import('../HeaderButtons'), {
+"use client";
+import logo from "@/assets/logo.png";
+import { Button, Divider, IconButton, Skeleton, Stack } from "@mui/material";
+import Box from "@mui/material/Box";
+import Drawer from "@mui/material/Drawer";
+import dynamic from "next/dynamic";
+import Image from "next/image";
+import Link from "next/link";
+import * as React from "react";
+import { CgMenuRightAlt } from "react-icons/cg";
+import { CiLocationOn } from "react-icons/ci";
+import { GiFlexibleLamp } from "react-icons/gi";
+import { IoClose } from "react-icons/io5";
+import { LuPhoneCall } from "react-icons/lu";
+import { MdOutlineArrowOutward } from "react-icons/md";
+import SocialSection from "../../SocialSection";
+import SearchProduct from "../SearchProduct";
+import CategoryAccordion from "./CategoryAccordion";
+const HeaderButtons = dynamic(() => import("../HeaderButtons"), {
 	ssr: false,
 	loading: () => <Skeleton variant='rectangular' width={150} height={40} />
 });
@@ -24,8 +24,8 @@ const HeaderButtons = dynamic(() => import('../HeaderButtons'), {
 const MobileNav = () => {
 	const [open, setOpen] = React.useState(false);
 	const mobileNavLinks = [
-		{ name: 'Home', href: '/' },
-		{ name: 'Products', href: '/products' }
+		{ name: "Home", href: "/" },
+		{ name: "Products", href: "/products" }
 	];
 
 	const currentYear = new Date().getFullYear();
@@ -38,15 +38,15 @@ const MobileNav = () => {
 		<Box sx={{ width: 350 }} px={2}>
 			<Box
 				sx={{
-					display: 'flex',
-					justifyContent: 'space-between',
-					alignItems: 'center',
+					display: "flex",
+					justifyContent: "space-between",
+					alignItems: "center",
 					p: 2,
-					borderBottom: '1px solid #455a6477',
+					borderBottom: "1px solid #455a6477",
 					mb: 3,
-					position: 'sticky',
+					position: "sticky",
 					top: 0,
-					bgcolor: 'background.paper',
+					bgcolor: "background.paper",
 					zIndex: 1
 				}}
 			>
@@ -56,8 +56,8 @@ const MobileNav = () => {
 					onClick={toggleDrawer(false)}
 					aria-label='close drawer'
 					sx={{
-						bgcolor: '#99ffab',
-						color: 'secondary.main'
+						bgcolor: "#99ffab",
+						color: "secondary.main"
 					}}
 				>
 					<IoClose size={22} />
@@ -78,12 +78,12 @@ const MobileNav = () => {
 						variant='text'
 						endIcon={<MdOutlineArrowOutward />}
 						sx={{
-							justifyContent: 'space-between',
-							transition: 'all 0.3s',
-							borderBottom: '1px solid #f0f0f0',
-							color: 'secondary.main',
-							'&:hover': {
-								color: 'primary.main'
+							justifyContent: "space-between",
+							transition: "all 0.3s",
+							borderBottom: "1px solid #f0f0f0",
+							color: "secondary.main",
+							"&:hover": {
+								color: "primary.main"
 							}
 						}}
 					>
@@ -97,7 +97,7 @@ const MobileNav = () => {
 			<Stack
 				gap={1}
 				sx={{
-					border: '1px solid #f0f0f0',
+					border: "1px solid #f0f0f0",
 					borderRadius: 2,
 					p: 2,
 					my: 2,
@@ -122,13 +122,13 @@ const MobileNav = () => {
 			{/* footer */}
 			<Box
 				sx={{
-					borderTop: '1px solid #f0f0f0',
+					borderTop: "1px solid #f0f0f0",
 					p: 2,
 					mt: 2,
 					fontSize: 14
 				}}
 			>
-				<span>&copy; {currentYear} Karukon. All rights reserved.</span>
+				<span>&copy; {currentYear} Charukon. All rights reserved.</span>
 			</Box>
 		</Box>
 	);
@@ -140,14 +140,14 @@ const MobileNav = () => {
 				justifyContent='space-between'
 				alignItems='center'
 				gap={2}
-				sx={{ display: { xs: 'flex', md: 'none' } }}
+				sx={{ display: { xs: "flex", md: "none" } }}
 				py={1}
 			>
 				<IconButton
 					onClick={toggleDrawer(true)}
 					aria-label='open drawer'
 					sx={{
-						color: 'primary.main'
+						color: "primary.main"
 					}}
 				>
 					<CgMenuRightAlt size={32} />

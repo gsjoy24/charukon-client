@@ -1,18 +1,18 @@
-import XIcon from '@mui/icons-material/X';
-import { Box, Stack, Typography } from '@mui/material';
-import Link from 'next/link';
-import { FaFacebookF, FaYoutube } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa6';
+import XIcon from "@mui/icons-material/X";
+import { Box, Stack, Typography } from "@mui/material";
+import Link from "next/link";
+import { FaFacebookF, FaYoutube } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa6";
 
 const SocialSection = () => {
 	const socialLinks = {
-		facebook: 'https://www.facebook.com/karukonbd71',
-		instagram: 'https://www.instagram.com/',
-		youtube: 'https://www.youtube.com/',
-		x: 'https://www.x.com/'
+		facebook: "https://www.facebook.com/Charukonbd71",
+		instagram: "https://www.instagram.com/",
+		youtube: "https://www.youtube.com/",
+		x: "https://www.x.com/"
 	};
 	const iconDesign =
-		'text-[20px] h-10 w-10 flex justify-center items-center bg-[#29A56C] hover:bg-[#004D29] duration-200 rounded-full text-white';
+		"text-[20px] h-10 w-10 flex justify-center items-center bg-[#29A56C] hover:bg-[#004D29] duration-200 rounded-full text-white";
 
 	return (
 		<Box>

@@ -2,4 +2,4 @@ User-Agent: *
 Allow: /
 Disallow: /private/
 
-Sitemap: http://karukon.vercel.app/sitemap.xml
+Sitemap: http://Charukon.vercel.app/sitemap.xml

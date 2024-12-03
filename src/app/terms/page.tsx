@@ -1,24 +1,24 @@
-import { Box, Container, Divider, Typography } from '@mui/material';
-import type { Metadata } from 'next';
+import { Box, Container, Divider, Typography } from "@mui/material";
+import type { Metadata } from "next";
 export const metadata: Metadata = {
-	title: 'Terms of Conditions - Karukon BD',
+	title: "Terms of Conditions - Charukon BD",
 	description:
-		'This website is operated by Karukonbd Online. Throughout the site, the terms “we”, “us,” and “our” refer to Karukonbd Online. Online offers this website, including all information, tools, and services available from this site, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here.'
+		"This website is operated by Charukonbd Online. Throughout the site, the terms “we”, “us,” and “our” refer to Charukonbd Online. Online offers this website, including all information, tools, and services available from this site, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here."
 };
 const TermsPage = () => {
 	return (
 		<Container maxWidth='md' sx={{ py: 4 }}>
 			<Box mb={4}>
-				<Typography variant='h4' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h4' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Terms of Conditions
 				</Typography>
 				<Divider sx={{ my: 2 }} />
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Overview
 				</Typography>
 				<Typography variant='body1' sx={{ mt: 2 }}>
-					This website is operated by Karukonbd Online. Throughout the site, the terms “we”, “us,” and “our” refer to
-					Karukonbd Online. Online offers this website, including all information, tools, and services available from
+					This website is operated by Charukonbd Online. Throughout the site, the terms “we”, “us,” and “our” refer to
+					Charukonbd Online. Online offers this website, including all information, tools, and services available from
 					this site, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here.
 				</Typography>
 				<Typography variant='body1' sx={{ mt: 2 }}>
@@ -41,7 +41,7 @@ const TermsPage = () => {
 					access to the website following the posting of any changes constitutes acceptance of those changes.
 				</Typography>
 				<Divider sx={{ my: 2 }} />
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					General Conditions
 				</Typography>
 				<Typography variant='body1' sx={{ mt: 2 }}>
@@ -66,18 +66,18 @@ const TermsPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Availability and Pricing
 				</Typography>
 				<Typography variant='body1' sx={{ mt: 2 }}>
-					All items on karukonbd are subject to availability. We will notify you as soon as possible if the products or
+					All items on Charukonbd are subject to availability. We will notify you as soon as possible if the products or
 					services you have ordered are not available. In such cases, our Customer Care team may offer similar
 					alternatives.
 				</Typography>
 				<Typography variant='body1' sx={{ mt: 2 }}>
 					Prices are subject to change without prior notice. While we strive to ensure the accuracy of the prices
-					displayed on karukonbd, we cannot guarantee that they will always be correct. If there is a price discrepancy,
-					we will inform you before dispatching your order, giving you the option to proceed or cancel.
+					displayed on Charukonbd, we cannot guarantee that they will always be correct. If there is a price
+					discrepancy, we will inform you before dispatching your order, giving you the option to proceed or cancel.
 				</Typography>
 				<Typography variant='body1' sx={{ mt: 2 }}>
 					We reserve the right to modify or discontinue any service (or any part or content thereof) at any time without
@@ -86,21 +86,22 @@ const TermsPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Products
 				</Typography>
 
 				<Typography variant='body1' sx={{ mt: 2 }}>
-					Our products are available exclusively online through karukonbd. These items may have limited quantities and
+					Our products are available exclusively online through Charukonbd. These items may have limited quantities and
 					are eligible for return or exchange only in accordance with our Return, Refund, and Replacement Policy.
 				</Typography>
 
 				<Typography variant='body1' sx={{ mt: 2 }}>
 					We strive to present our products as accurately as possible, including their original color and size. However,
 					variations in color or size may occur due to differences in display settings, technical limitations, or other
-					factors related to your device. Therefore, karukonbd cannot guarantee that the physical product will perfectly
-					match the display image. If a product does not meet your expectations as described, your only recourse is to
-					return it unused, following the conditions outlined in our Return, Refund, and Replacement Policy.
+					factors related to your device. Therefore, Charukonbd cannot guarantee that the physical product will
+					perfectly match the display image. If a product does not meet your expectations as described, your only
+					recourse is to return it unused, following the conditions outlined in our Return, Refund, and Replacement
+					Policy.
 				</Typography>
 				<Typography variant='body1' sx={{ mt: 2 }}>
 					We reserve the right, but are not obligated, to limit the sale of our products or services to any individual,
@@ -111,7 +112,7 @@ const TermsPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Accuracy of Billing and Account Information
 				</Typography>
 				<Typography variant='body1' sx={{ mt: 2 }}>
@@ -137,7 +138,7 @@ const TermsPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Third-Party Links
 				</Typography>
 
@@ -159,7 +160,7 @@ const TermsPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Personal Information
 				</Typography>
 
@@ -169,7 +170,7 @@ const TermsPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Errors, Inaccuracies, and Omissions
 				</Typography>
 
@@ -191,26 +192,26 @@ const TermsPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Order Cancellation
 				</Typography>
 
 				<Typography variant='body1' sx={{ mt: 2 }}>
-					At Karukon Online, we are committed to delivering quality and authentic products to our customers. To uphold
+					At Charukon Online, we are committed to delivering quality and authentic products to our customers. To uphold
 					this commitment, we conduct rigorous Quality Control checks after receiving the ordered products from our
 					authorized vendors. We reserve the right to cancel any customer order if our quality Control checks reveal any
 					issues with the product, as our priority is to provide you with the best online shopping experience.
 				</Typography>
 
 				<Typography variant='body1' sx={{ mt: 2 }}>
-					Karukon Online also reserves the right to cancel any order if the product becomes unavailable or is out of
+					Charukon Online also reserves the right to cancel any order if the product becomes unavailable or is out of
 					stock. Product unavailability may arise from unforeseen inventory management issues, website management
 					problems, vendor stock discrepancies, or other unpredictable factors that cannot be preemptively detected by
 					our system.
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Prohibited Uses
 				</Typography>
 
@@ -272,7 +273,7 @@ const TermsPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Disclaimer of Warranties; Limitation of Liability
 				</Typography>
 
@@ -292,7 +293,7 @@ const TermsPage = () => {
 				</Typography>
 
 				<Typography variant='body1' sx={{ mt: 2 }}>
-					Under no circumstances shall karukonbd, its directors, officers, employees, affiliates, agents, contractors,
+					Under no circumstances shall Charukonbd, its directors, officers, employees, affiliates, agents, contractors,
 					interns, suppliers, vendors, service providers, or licensors be liable for any injury, loss, claim, or any
 					direct, indirect, incidental, punitive, special, or consequential damages of any kind, including, but not
 					limited to, lost profits, lost revenue, lost savings, loss of data, replacement costs, or any similar damages,
@@ -304,21 +305,21 @@ const TermsPage = () => {
 				</Typography>
 
 				<Typography variant='body1' sx={{ mt: 2 }}>
-					Most of the products offered by karukonbd carry a warranty. Customers can avail themselves of the warranty
-					directly at any brand-authorized service center or through karukonbd. However, any injury, loss, or damage
-					resulting from the use of the product, whether direct or indirect, will not make karukonbd.com.bd liable for
+					Most of the products offered by Charukonbd carry a warranty. Customers can avail themselves of the warranty
+					directly at any brand-authorized service center or through Charukonbd. However, any injury, loss, or damage
+					resulting from the use of the product, whether direct or indirect, will not make Charukonbd.com.bd liable for
 					providing service facilities, provided that such use and the resulting consequences are not covered or
 					supported by the warranty provisions.
 				</Typography>
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Indemnification
 				</Typography>
 
 				<Typography variant='body1' sx={{ mt: 2 }}>
-					As a user of the website and its services, you agree to indemnify, defend, and hold harmless karukonbd, its
+					As a user of the website and its services, you agree to indemnify, defend, and hold harmless Charukonbd, its
 					parent company, subsidiaries, affiliates, partners, officers, directors, agents, contractors, licensors,
 					service providers, subcontractors, suppliers, vendors, interns, and employees from any claim or demand,
 					including reasonable attorneys’ fees, made by any third party due to or arising out of your breach of these
@@ -328,7 +329,7 @@ const TermsPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Severability
 				</Typography>
 
@@ -341,7 +342,7 @@ const TermsPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Termination
 				</Typography>
 
@@ -375,7 +376,7 @@ const TermsPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Governing Law
 				</Typography>
 
@@ -388,7 +389,7 @@ const TermsPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h5' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Changes to Terms of Service
 				</Typography>
 

@@ -1,29 +1,29 @@
-import { Box, Container, Divider, Typography } from '@mui/material';
-import type { Metadata } from 'next';
+import { Box, Container, Divider, Typography } from "@mui/material";
+import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: 'Privacy Policy - Karukon BD',
+	title: "Privacy Policy - Charukon BD",
 	description:
-		'Karukon BD (কারুকোণ বিডি) Online Shopping is a online retailing store that thrives to provide it’s customer with the best available product at the lowest possible price.'
+		"Charukon BD (কারুকোণ বিডি) Online Shopping is a online retailing store that thrives to provide it’s customer with the best available product at the lowest possible price."
 };
 
 const PrivacyPage = () => {
 	return (
 		<Container maxWidth='md' sx={{ py: 4 }}>
 			<Box mb={4}>
-				<Typography variant='h4' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h4' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Privacy Policy
 				</Typography>
 
 				<Typography variant='body2' sx={{ mb: 2 }}>
-					This website is owned and operated by KarukonBd. We are committed to safeguarding the privacy of our website
+					This website is owned and operated by CharukonBd. We are committed to safeguarding the privacy of our website
 					visitors. This Privacy Policy outlines how we handle your personal information across our services on the
 					website and related sites.
 				</Typography>
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Scope and Applicability
 				</Typography>
 
@@ -37,7 +37,7 @@ const PrivacyPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Collection and Use of Personal Information
 				</Typography>
 
@@ -50,7 +50,7 @@ const PrivacyPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Consent and Acceptance
 				</Typography>
 
@@ -61,7 +61,7 @@ const PrivacyPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Minors
 				</Typography>
 
@@ -75,7 +75,7 @@ const PrivacyPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Contact Us
 				</Typography>
 
@@ -343,7 +343,7 @@ const PrivacyPage = () => {
 				<Divider sx={{ my: 2 }} />
 
 				<Typography variant='body1' sx={{ mb: 1 }}>
-					<strong>Information You Share on KarukonBd</strong>
+					<strong>Information You Share on CharukonBd</strong>
 				</Typography>
 
 				<Typography variant='body1' sx={{ mb: 1 }}>
@@ -405,7 +405,7 @@ const PrivacyPage = () => {
 				<Typography variant='body1' sx={{ mb: 1 }}>
 					Google Analytics: We use Google Analytics to analyze website usage. Google Analytics uses cookies to generate
 					statistical information about website use. Information generated is used to create reports about website
-					usage. Google’s privacy policy can be found at:{' '}
+					usage. Google’s privacy policy can be found at:{" "}
 					<a href='http://www.google.com/privacypolicy.html'>Google Privacy Policy</a>.
 				</Typography>
 
@@ -469,7 +469,7 @@ const PrivacyPage = () => {
 					<strong>Third Parties</strong>
 					This Privacy Policy only addresses our use and disclosure of information we collect from you. If you disclose
 					your information to others, such as bidders, buyers, or sellers on our or other sites, different privacy rules
-					may apply. Karukon does not control the privacy policies of third parties. We encourage you to review their
+					may apply. Charukon does not control the privacy policies of third parties. We encourage you to review their
 					privacy policies before disclosing your personal information to them.
 				</Typography>
 

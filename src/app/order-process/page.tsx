@@ -5,38 +5,38 @@ import {
 	PaymentOutlined,
 	PersonAdd,
 	ShoppingCartOutlined
-} from '@mui/icons-material';
-import { Card, CardContent, Container, Step, StepLabel, Stepper, Typography } from '@mui/material';
-import Link from 'next/link';
+} from "@mui/icons-material";
+import { Card, CardContent, Container, Step, StepLabel, Stepper, Typography } from "@mui/material";
+import Link from "next/link";
 
 export const metadata = {
-	title: 'How to Place an Order - Karukon BD',
+	title: "How to Place an Order - Charukon BD",
 	description:
-		'Follow these simple steps to place an order without paying upfront. Once your order is placed, you will receive a confirmation call from us to verify your delivery address.',
-	keywords: 'Karukon BD, কারুকোণ বিডি, order process, how to place an order, online shop, cynor'
+		"Follow these simple steps to place an order without paying upfront. Once your order is placed, you will receive a confirmation call from us to verify your delivery address.",
+	keywords: "Charukon BD, কারুকোণ বিডি, order process, how to place an order, online shop, cynor"
 };
 
 const steps = [
-	{ label: 'Sign Up', icon: <PersonAdd /> },
-	{ label: 'Confirm Email', icon: <EmailOutlined /> },
-	{ label: 'Browse Products', icon: <ShoppingCartOutlined /> },
-	{ label: 'Add to Cart', icon: <ShoppingCartOutlined /> },
-	{ label: 'Place Order', icon: <PaymentOutlined /> },
-	{ label: 'Confirmation Call', icon: <LocalPhoneOutlined /> },
-	{ label: 'Order Delivery', icon: <LocalShippingOutlined /> }
+	{ label: "Sign Up", icon: <PersonAdd /> },
+	{ label: "Confirm Email", icon: <EmailOutlined /> },
+	{ label: "Browse Products", icon: <ShoppingCartOutlined /> },
+	{ label: "Add to Cart", icon: <ShoppingCartOutlined /> },
+	{ label: "Place Order", icon: <PaymentOutlined /> },
+	{ label: "Confirmation Call", icon: <LocalPhoneOutlined /> },
+	{ label: "Order Delivery", icon: <LocalShippingOutlined /> }
 ];
 
 const HowToPlaceOrderPage = () => {
 	return (
-		<Container maxWidth='md' style={{ marginTop: '40px', marginBottom: '40px' }}>
+		<Container maxWidth='md' style={{ marginTop: "40px", marginBottom: "40px" }}>
 			<Typography
 				variant='h1'
 				align='center'
 				gutterBottom
 				sx={{
 					fontSize: {
-						xs: '1.8rem',
-						sm: '3rem'
+						xs: "1.8rem",
+						sm: "3rem"
 					}
 				}}
 			>
@@ -46,13 +46,13 @@ const HowToPlaceOrderPage = () => {
 				Follow these simple steps to place an order without paying upfront. Once your order is placed, you will receive
 				a confirmation call from us to verify your delivery address.
 			</Typography>
-			<Stepper activeStep={-1} orientation='vertical' style={{ marginTop: '30px' }}>
+			<Stepper activeStep={-1} orientation='vertical' style={{ marginTop: "30px" }}>
 				{steps.map((step, index) => (
 					<Step key={index}>
 						<StepLabel icon={step.icon}>
 							<Typography variant='h6'>{step.label}</Typography>
 						</StepLabel>
-						<Card variant='outlined' style={{ marginBottom: '20px' }}>
+						<Card variant='outlined' style={{ marginBottom: "20px" }}>
 							<CardContent>
 								<Typography variant='body2' color='textSecondary'>
 									{getStepDescription(index)}
@@ -72,18 +72,18 @@ const getStepDescription = (index: number) => {
 			return (
 				<>
 					<p>
-						Simply{' '}
+						Simply{" "}
 						<Link href='/register' className='text-blue-500'>
 							sign up
-						</Link>{' '}
+						</Link>{" "}
 						for an account to get started. You will receive an email with a link to confirm your email address.
 					</p>
 					<br />
 					<p>
-						সহজেই{' '}
+						সহজেই{" "}
 						<Link href='/register' className='text-blue-500'>
 							সাইন আপ
-						</Link>{' '}
+						</Link>{" "}
 						করুন একটি অ্যাকাউন্টের জন্য। আপনি একটি ইমেইল পাবেন যেখানে আপনার ইমেইল ঠিকানা নিশ্চিত করার জন্য একটি লিঙ্ক
 						থাকবে।
 					</p>
@@ -101,10 +101,10 @@ const getStepDescription = (index: number) => {
 			return (
 				<>
 					<p>
-						Browse our wide range of{' '}
+						Browse our wide range of{" "}
 						<Link href='/register' className='text-blue-500'>
 							products
-						</Link>{' '}
+						</Link>{" "}
 						and choose your favorites.
 					</p>
 					<br />
@@ -146,7 +146,7 @@ const getStepDescription = (index: number) => {
 				</>
 			);
 		default:
-			return '';
+			return "";
 	}
 };
 export default HowToPlaceOrderPage;

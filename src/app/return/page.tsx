@@ -1,16 +1,16 @@
-import { Box, Container, Divider, Typography } from '@mui/material';
-import type { Metadata } from 'next';
+import { Box, Container, Divider, Typography } from "@mui/material";
+import type { Metadata } from "next";
 export const metadata: Metadata = {
-	title: 'Return Policy - Karukon BD',
+	title: "Return Policy - Charukon BD",
 	description:
-		'Before initiating a return or replacement, please carefully read through our policy to ensure that your purchased item is eligible.'
+		"Before initiating a return or replacement, please carefully read through our policy to ensure that your purchased item is eligible."
 };
 
 const ReturnPolicyPage = () => {
 	return (
 		<Container maxWidth='md' sx={{ py: 4 }}>
 			<Box mb={4}>
-				<Typography variant='h4' component='h1' sx={{ fontWeight: 'bold', mb: 2 }}>
+				<Typography variant='h4' component='h1' sx={{ fontWeight: "bold", mb: 2 }}>
 					Return Policy
 				</Typography>
 				<Typography variant='body2' sx={{ mb: 2 }}>
@@ -20,7 +20,7 @@ const ReturnPolicyPage = () => {
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Procedure to Return a Product
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
@@ -32,12 +32,12 @@ const ReturnPolicyPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Replacement Guarantee
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
 					We offer a 7 Days Replacement Guarantee (excluding items in an intact box or packet) for physical products
-					sold on KarukonBd.
+					sold on CharukonBd.
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
 					The replacement request must be made within 7 days of receiving the delivery.
@@ -47,7 +47,7 @@ const ReturnPolicyPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Refund Process
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
@@ -57,7 +57,7 @@ const ReturnPolicyPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Requirements for a Valid Return
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
@@ -68,7 +68,7 @@ const ReturnPolicyPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Valid Conditions and Reasons to Return an Item
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
@@ -86,7 +86,7 @@ const ReturnPolicyPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Installation Service Terms
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
@@ -95,11 +95,11 @@ const ReturnPolicyPage = () => {
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Cancellation & Refund Policy Due to Product Unavailability
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
-					Delivery of ordered items is subject to the availability of the products at our warehouse or store. KarukonBd
+					Delivery of ordered items is subject to the availability of the products at our warehouse or store. CharukonBd
 					reserves the right to cancel any order within 4 to 7 working days if the stock of the ordered item(s) is
 					temporarily unavailable.
 				</Typography>
@@ -114,18 +114,18 @@ const ReturnPolicyPage = () => {
 					received, the amount will be adjusted against the refund.
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
-					If the customer cancels an order after confirmation and has made an online payment, karukonbd will charge an
+					If the customer cancels an order after confirmation and has made an online payment, Charukonbd will charge an
 					Online Gateway Transaction fee when processing the refund.
 				</Typography>
 
 				<Typography variant='body1'>
-					Advance payment is required for the delivery of certain products. Karukonbd reserves the right to cancel any
+					Advance payment is required for the delivery of certain products. Charukonbd reserves the right to cancel any
 					order if the required advance payment is not made.
 				</Typography>
 
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Return/Replacement Guarantee Exclusions
 				</Typography>
 				<Typography variant='body1' sx={{ mb: 1 }}>
@@ -155,11 +155,11 @@ const ReturnPolicyPage = () => {
 					packaging (if any), and all other items originally included with the delivered product(s).
 				</Typography>
 				<Typography variant='body2' sx={{ mt: 2 }}>
-					<strong>Note</strong>: Replacement of the product is subject to the availability of the same on KarukonBd.
+					<strong>Note</strong>: Replacement of the product is subject to the availability of the same on CharukonBd.
 				</Typography>
 				<Divider sx={{ my: 2 }} />
 
-				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: 'bold' }}>
+				<Typography variant='h5' component='h2' sx={{ mb: 2, fontWeight: "bold" }}>
 					Same Day Delivery
 				</Typography>
 

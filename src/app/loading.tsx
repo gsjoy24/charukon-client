@@ -1,5 +1,5 @@
-import Loader from '@/components/Shared/Loader/Loader';
-import { Typography } from '@mui/material';
+import Loader from "@/components/Shared/Loader/Loader";
+import { Typography } from "@mui/material";
 
 const Loading = () => {
 	return (
@@ -8,14 +8,14 @@ const Loading = () => {
 			<Typography
 				sx={{
 					fontSize: {
-						xs: '1.5rem',
-						sm: '2rem',
-						md: '2.5rem',
-						lg: '3rem'
+						xs: "1.5rem",
+						sm: "2rem",
+						md: "2.5rem",
+						lg: "3rem"
 					}
 				}}
 			>
-				KARUKON
+				Charukon
 			</Typography>
 		</div>
 	);

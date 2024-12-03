@@ -1,23 +1,23 @@
-import { MetadataRoute } from 'next';
+import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
 	return [
 		{
-			url: 'http://karukon.vercel.app',
+			url: "http://Charukon.vercel.app",
 			lastModified: new Date(),
-			changeFrequency: 'daily',
+			changeFrequency: "daily",
 			priority: 1
 		},
 		{
-			url: 'http://karukon.vercel.app/about-us',
+			url: "http://Charukon.vercel.app/about-us",
 			lastModified: new Date(),
-			changeFrequency: 'monthly',
+			changeFrequency: "monthly",
 			priority: 0.8
 		},
 		{
-			url: 'http://karukon.vercel.app/contact',
+			url: "http://Charukon.vercel.app/contact",
 			lastModified: new Date(),
-			changeFrequency: 'yearly',
+			changeFrequency: "yearly",
 			priority: 0.5
 		}
 	];
